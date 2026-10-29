@@ -1,0 +1,22 @@
+{
+  "collapse-filter": false,
+  "search": "-path:X/ -file:.base -file:.json -path:\"open tasks\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 0.502517073170732,
+  "lineSizeMultiplier": 0.747278048780488,
+  "collapse-forces": false,
+  "centerStrength": 0.650341463414634,
+  "repelStrength": 12.425262728293,
+  "linkStrength": 0.912585365853659,
+  "linkDistance": 30,
+  "scale": 0.13412370267619544,
+  "close": true
+}

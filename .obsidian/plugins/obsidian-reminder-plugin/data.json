@@ -1,0 +1,59 @@
+{
+  "scanned": true,
+  "seededTaskStatuses": "[ ] -> [x] TODO\n[x] -> [ ] DONE\n[/] -> [x] IN_PROGRESS\n[-] -> [ ] CANCELLED",
+  "reminders": {
+    "Calendar/2026/09/2026-09-06.md": [
+      {
+        "title": "Cancel the surfshark subscription",
+        "time": "2026-11-29",
+        "rowNumber": 14,
+        "muted": false
+      }
+    ]
+  },
+  "debug": false,
+  "dndUntil": null,
+  "settings": {
+    "reminderTime": "09:00",
+    "reminderTimeStep": 15,
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "enableNotification": true,
+    "reNotifyMutedOnStartup": true,
+    "notificationPopupStyle": "toast",
+    "openNoteOnReminderClick": true,
+    "useSystemNotification": true,
+    "showPopupWithSystemNotification": true,
+    "keepSystemNotificationOnScreen": false,
+    "focusDoneButtonOnPopup": false,
+    "showOverdueCountInStatusBar": true,
+    "autoCompleteTrigger": "(@",
+    "convertNonTaskLines": true,
+    "primaryReminderFormat": "TasksPluginReminderFormat",
+    "editorReminderDisplay": true,
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": true,
+    "useCustomEmojiForTasksPlugin": true,
+    "useReminderTimeFallbackForTasksPlugin": true,
+    "removeTagsForTasksPlugin": false,
+    "taskStatuses": "[ ] -> [x] TODO\n[x] -> [ ] DONE\n[/] -> [x] IN_PROGRESS\n[-] -> [ ] CANCELLED",
+    "enableDataviewReminderFormat": false,
+    "dataviewReminderFieldName": "reminder",
+    "enableKanbanPluginReminderFormat": false,
+    "yearMonthDisplayFormat": "YYYY, MMMM",
+    "monthDayDisplayFormat": "MM/DD",
+    "shortDateWithWeekdayDisplayFormat": "M/DD (ddd)",
+    "timeDisplayFormat": "HH:mm",
+    "weekStart": "0",
+    "ntfyEnabled": false,
+    "ntfyServerUrl": "https://ntfy.sh",
+    "ntfyTopic": "",
+    "ntfyAccessToken": "",
+    "excludedPaths": "X/Templates",
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

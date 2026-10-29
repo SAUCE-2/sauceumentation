@@ -1,0 +1,9 @@
+{
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments",
+  "promptDelete": false,
+  "readableLineLength": false
+}

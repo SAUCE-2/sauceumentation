@@ -1,0 +1,16 @@
+{
+  "accentColor": "#6633ff",
+  "cssTheme": "Tokyo Night",
+  "translucency": false,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "monospaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "margin",
+    "paragraph",
+    "hide-skills"
+  ]
+}

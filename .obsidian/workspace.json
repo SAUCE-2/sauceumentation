@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "54c2d109d45c4f53",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cac62be497423bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "081cda372ea95ad7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cc2f535569b5a02",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ae8a8cb54f94678",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "518813eebbee42b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e8781e1a18d314c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "62bcbee22c930527",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c35382a5f041da2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cb85dc35d7d1b9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cfee2cea0b59da1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "22e44a66df6ef97d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d52997110aa44eef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8ff11805f6f778d4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7ae0f8eef8f1578f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "eb613744835b5410",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "782284fd32c342f9",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "518813eebbee42b3",
+  "lastOpenFiles": [
+    "sed3rjkN7",
+    "+/Vibe coder demo/Efforts/Shared/Set up MQTT broker on the Pi.md",
+    "+/Vibe coder demo/Efforts/Shared/Push notifications everywhere.md",
+    "+/Vibe coder demo/Efforts/Shared/One Supabase project for all apps.md",
+    "+/Vibe coder demo/Efforts/Shared",
+    "+/Vibe coder demo/Efforts/Plant Parent/Watering streak widget.md",
+    "+/Vibe coder demo/Efforts/Plant Parent/TestFlight beta.md",
+    "+/Vibe coder demo/Efforts/Plant Parent/Plant Parent.md",
+    "+/Vibe coder demo/Efforts/Plant Parent/Photo plant ID.md",
+    "+/Vibe coder demo/Efforts/Plant Parent",
+    "+/Vibe coder demo/Efforts/Pantry Pal/Use-it-up recipes.md",
+    "+/Vibe coder demo/Efforts/Pantry Pal/Pantry Pal.md",
+    "+/Vibe coder demo/Efforts/Pantry Pal/Landing page.md",
+    "+/Vibe coder demo/Efforts/Pantry Pal/Dark mode.md",
+    "+/Vibe coder demo/Efforts/Pantry Pal/Barcode scanner.md",
+    "+/Vibe coder demo/Efforts/Pantry Pal",
+    "+/Vibe coder demo/Efforts/Fridge Gossip/Snark generator.md",
+    "+/Vibe coder demo/Efforts/Fridge Gossip/Fridge Gossip.md",
+    "+/Vibe coder demo/Efforts/Fridge Gossip/Door sensor firmware.md",
+    "+/Vibe coder demo/Efforts/Fridge Gossip",
+    "+/Vibe coder demo/Efforts/Casa/Replace flaky Zigbee bulbs.md",
+    "+/Vibe coder demo/Efforts/Casa/Hallway motion lights.md",
+    "+/Vibe coder demo/Efforts/Casa/Leak sensors under sink.md",
+    "+/Vibe coder demo/Efforts/Casa/Energy dashboard.md",
+    "+/Vibe coder demo/Efforts/Casa/Casa.md",
+    "+/Vibe coder demo/Efforts/Casa",
+    "+/Vibe coder demo/Calendar/2026/10/2026-10-29.md",
+    "+/Vibe coder demo/Calendar/2026/10/2026-10-28.md",
+    "+/Vibe coder demo/Calendar/2026/10/2026-10-27.md",
+    "+/Vibe coder demo/Calendar/2026/10/2026-10-26.md",
+    "+/Vibe coder demo/Calendar/2026/10/2026-10-25.md",
+    "+/Vibe coder demo/Calendar/2026/10",
+    "+/Vibe coder demo/Calendar/2026",
+    "+/Vibe coder demo/Atlas/Vibe coding",
+    "+/Vibe coder demo/Atlas/Home lab",
+    "+/Vibe coder demo/Efforts"
+  ]
+}

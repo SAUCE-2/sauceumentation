@@ -1,0 +1,152 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("Atlas")
+formulas:
+  used_by_effort: file.backlinks.filter(value.asFile().hasTag("effort")).length > 0
+properties:
+  up:
+    displayName: Up
+  formula.used_by_effort:
+    displayName: used by effort
+views:
+  - type: table
+    name: Recent
+    order:
+      - file.name
+      - tags
+      - up
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Maps
+    filters:
+      and:
+        - file.hasTag("map")
+    order:
+      - file.name
+      - up
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Ideas
+    filters:
+      and:
+        - file.hasTag("idea")
+    order:
+      - file.name
+      - formula.used_by_effort
+      - up
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Unused ideas
+    filters:
+      and:
+        - file.hasTag("idea")
+        - formula.used_by_effort == false
+    order:
+      - file.name
+      - up
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+  - type: table
+    name: Insights
+    filters:
+      and:
+        - file.hasTag("insight")
+    order:
+      - file.name
+      - source
+      - up
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Terms
+    filters:
+      and:
+        - file.hasTag("term")
+    order:
+      - file.name
+      - contexts
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: People
+    filters:
+      and:
+        - file.hasTag("person")
+    order:
+      - file.name
+      - org
+      - role
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Sources
+    filters:
+      and:
+        - file.hasTag("source", "book")
+    order:
+      - file.name
+      - tags
+      - author
+      - status
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: cards
+    name: Source gallery
+    filters:
+      and:
+        - file.hasTag("source", "book")
+    order:
+      - file.name
+      - author
+      - status
+    sort:
+      - property: file.mtime
+        direction: DESC
+    image: note.cover
+    imageFit: cover
+    imageAspectRatio: 1.4
+    cardSize: 200
+  - type: table
+    name: Needs a map
+    filters:
+      and:
+        - '!file.hasTag("map")'
+        - up.isEmpty()
+    order:
+      - file.name
+      - tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Orphans
+    filters:
+      and:
+        - file.backlinks.length == 0
+    order:
+      - file.name
+      - tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
